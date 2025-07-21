@@ -1,0 +1,116 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#f5f5f5',
+    paddingHorizontal: 15,
+    marginBottom: 20,
+  },
+  card: {
+    backgroundColor: '#ffffff',
+    borderRadius: 16,
+    paddingVertical: 20,
+    paddingHorizontal: 20,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 5,
+    maxWidth: 400,
+    width: '100%',
+  },
+  iconContainer: {
+    marginBottom: 25,
+  },
+  teamIcon: {
+    width: 60,
+    height: 40,
+    position: 'relative',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  person: {
+    position: 'absolute',
+    alignItems: 'center',
+  },
+  personMiddle: {
+    zIndex: 3,
+  },
+  personRight: {
+    left: 20,
+    zIndex: 2,
+  },
+  personHead: {
+    width: 12,
+    height: 12,
+    borderRadius: 6,
+    backgroundColor: 'transparent',
+    borderWidth: 1.5,
+    borderColor: '#333',
+    marginBottom: 2,
+  },
+  personBody: {
+    width: 20,
+    height: 16,
+    backgroundColor: 'transparent',
+    borderWidth: 1.5,
+    borderColor: '#333',
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+    borderBottomLeftRadius: 4,
+    borderBottomRightRadius: 4,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: '600',
+    color: '#333',
+    textAlign: 'center',
+    marginBottom: 20,
+    lineHeight: 32,
+  },
+  divider: {
+    width: 80,
+    height: 2,
+    backgroundColor: '#ff6b6b',
+    marginBottom: 20,
+  },
+  quote: {
+    fontSize: 14,
+    color: '#666',
+    textAlign: 'center',
+    marginBottom: 25,
+    lineHeight: 20,
+    fontStyle: 'italic',
+  },
+  description: {
+    fontSize: 16,
+    color: '#333',
+    textAlign: 'center',
+    lineHeight: 24,
+    marginBottom: 5,
+  },
+  button: {
+    backgroundColor: 'transparent',
+    borderWidth: 1,
+    borderColor: '#dc3545',
+    borderRadius: 25,
+    paddingHorizontal: 30,
+    paddingVertical: 6,
+    marginTop: 25,
+  },
+  buttonText: {
+    fontSize: 18,
+    color: 'black',
+    fontWeight: '700',
+    textAlign: 'center',
+  },
+});
+
+export default styles;
