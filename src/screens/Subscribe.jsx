@@ -11,6 +11,7 @@ import KnowTeam from '../components/Subscribe/KnowTeam';
 import ChoosePlan from '../components/Subscribe/ChoosePlan/ChoosePlan';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import CorporatePlan from '../components/Subscribe/CorporatePlan/CorporatePlan';
+import RegisterForm from '../components/Subscribe/RegisterForm/RegisterForm';
 
 const Subscribe = () => {
   const navigation = useNavigation();
@@ -26,6 +27,7 @@ const Subscribe = () => {
         <>
           <ChoosePlan />
           <KnowTeam />
+          {/* <RegisterForm/> */}
           <FAQPage />
         </>
       );
